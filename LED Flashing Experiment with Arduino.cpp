@@ -8,7 +8,7 @@ void setup()
 }
 
 /* Here the state changes in a loop between HIGH and LOW 
-High = lights up
+High = on
 Wait 2 seconds
 Low = off
 */
