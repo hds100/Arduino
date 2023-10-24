@@ -1,2 +1,1 @@
-# Eletronics
-Electronics and embedded systems
+# Projects with Arduino
