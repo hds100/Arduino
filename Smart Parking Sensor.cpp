@@ -43,6 +43,9 @@ void setup()
 */
 void loop()
 {
+ /*
+Variable distance at standard value of 0.01723 miliseconds * reading of the echo pin in the time of receiving the ultrasonic waves
+*/
   distance = 0.01723 * readUltrasonicDistance(6, 7); 
   if (distance <= 50) { // If the distance variable is less than or equal to 50 cm, the red LED is on
     digitalWrite(10, HIGH);
