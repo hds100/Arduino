@@ -28,28 +28,28 @@ In the third, the first loop is repeated to form S letter again
   */
 void loop() 
 { 
-		for (int x=0; x<3; x++) 
-		{ 
-			digitalWrite (10, HIGH); // Red LED is ON
-			delay (200); // Wait 200 milliseconds
-			digitalWrite (10, LOW); // Red LED is off 
-			delay (150); // Wait 150 milliseconds
-		} 
-		delay (500);// 500 millisecond interval between letters
-		for (int x=0; x<3; x++) // Again the for loop while a comparison test is true
-		{ 
-			digitalWrite (10, HIGH); // Red LED is on
-			delay (800); //  Wait 800 milliseconds
-			digitalWrite (10, LOW); // Red LED is off
-			delay (100); // Wait 100 miliseconds
-		} 
-		delay (500);// 500 millisecond interval between letters
-		for (int x=0; x<3; x++) 
-		{ 
-			digitalWrite (10, HIGH); // Red LED is on 
-			delay (200); // Wait 200 milliseconds
-			digitalWrite (10, LOW); // Red LED is off
-			delay (150); // Wait 150 milliseconds
-		} 
-			delay (5000); // Wait 5000 milliseconds to repeat the signal programming
+	for (int x=0; x<3; x++) 
+	{ 
+		digitalWrite (10, HIGH); // Red LED is ON
+		delay (200); // Wait 200 milliseconds
+		digitalWrite (10, LOW); // Red LED is off 
+		delay (150); // Wait 150 milliseconds
+	} 
+	delay (500);// 500 millisecond interval between letters
+	for (int x=0; x<3; x++) // Again the for loop while a comparison test is true
+	{ 
+		digitalWrite (10, HIGH); // Red LED is on
+		delay (800); //  Wait 800 milliseconds
+		digitalWrite (10, LOW); // Red LED is off
+		delay (100); // Wait 100 miliseconds
+	} 
+	delay (500);// 500 millisecond interval between letters
+	for (int x=0; x<3; x++) 
+	{ 
+		digitalWrite (10, HIGH); // Red LED is on 
+		delay (200); // Wait 200 milliseconds
+		digitalWrite (10, LOW); // Red LED is off
+		delay (150); // Wait 150 milliseconds
+	} 
+		delay (5000); // Wait 5000 milliseconds to repeat the signal programming
 }
