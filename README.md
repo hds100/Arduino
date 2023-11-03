@@ -8,7 +8,7 @@
   
 **1 - LED Flashing [Circuit]**
 
-  <a href="https://imgur.com/7ngncCr"><img src="https://i.imgur.com/7ngncCr.png?1" title="source: imgur.com" /></a>
+  <a href="https://imgur.com/7ngncCr"><img src="https://i.imgur.com/7ngncCr.png"/></a>
 
 **2 - Reading Digital Signal with Button [Circuit]**
 
