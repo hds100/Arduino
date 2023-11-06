@@ -6,7 +6,7 @@
 
 <div align="center">
   
-**1 - LED Flashing [Circuit]**
+**1 - LED Flashing and 4 - Morse Code [Circuit]**
 
   <a href="https://imgur.com/7ngncCr"><img src="https://i.imgur.com/7ngncCr.png" title="source: imgur.com" /></a>
 
