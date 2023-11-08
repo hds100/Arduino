@@ -22,7 +22,7 @@
 
   <a href="https://imgur.com/gRkZJLE"><img src="https://i.imgur.com/gRkZJLE.png?1" title="source: imgur.com" /></a>
 
-**5 - Traffic Light Circuit**
+**5 - Smart Traffic Light with Button Circuit**
 
   <a href="https://imgur.com/mtq3ZwO"><img src="https://i.imgur.com/mtq3ZwO.png" title="source: imgur.com" /></a>
 
