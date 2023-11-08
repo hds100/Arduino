@@ -51,7 +51,7 @@ void loop()
     digitalWrite(13, HIGH);
     delay(6000); // Wait for 6000 millisecond(s)
     digitalWrite(13, HIGH);
-    delay(3000); // Wait for 30000 millisecond(s)
+    delay(3000); // Wait for 3000 millisecond(s)
     digitalWrite(13, LOW);
     digitalWrite(11, HIGH);
     digitalWrite(6, LOW);
