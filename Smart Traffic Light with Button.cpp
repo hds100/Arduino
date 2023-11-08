@@ -9,7 +9,7 @@
   13 = Red
   7 = Red (pedestrian)
   6 = Green (pedestrian)
-  2 = Button (button for stop traffic lighting)
+  8 = Button (button for stop traffic lighting)
 
 
 */
@@ -20,13 +20,14 @@ void setup()
   pinMode(13, OUTPUT);
   pinMode(7, OUTPUT);
   pinMode(6, OUTPUT);
-  pinMode(2, INPUT);
+  pinMode(8, INPUT);
 }
 /*
 11 - Green = ON
 7 - Red (pedestrian) = ON
 
-If = When the pedestrian presses the button, the traffic light for vehicles from green (11) changes to yellow (gate 12), and then to red (13). For pedestrians, it changes to green (gate 6), a descent that can cross the lane.
+If = When the pedestrian presses the button, the traffic light for vehicles from green (11) changes to yellow (gate 12), and then to red (13)
+For pedestrians, it changes to green (gate 6), a descent that can cross the lane
 
 Wait 30 seconds
 
@@ -40,7 +41,7 @@ void loop()
   digitalWrite(13, LOW);
   digitalWrite(7, HIGH);
   digitalWrite(6, LOW);
-  if (digitalRead(2) == 0) {
+  if (digitalRead(8) == 0) {
     digitalWrite(11, LOW);
     digitalWrite(12, HIGH);
     delay(3000); // Wait for 3000 millisecond(s)
@@ -50,7 +51,7 @@ void loop()
     digitalWrite(13, HIGH);
     delay(6000); // Wait for 6000 millisecond(s)
     digitalWrite(13, HIGH);
-    delay(60000); // Wait for 30000 millisecond(s)
+    delay(3000); // Wait for 30000 millisecond(s)
     digitalWrite(13, LOW);
     digitalWrite(11, HIGH);
     digitalWrite(6, LOW);
